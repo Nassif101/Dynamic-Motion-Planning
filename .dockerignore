@@ -1,0 +1,29 @@
+# ROS/colcon build output
+build/
+install/
+log/
+
+# Git and editor junk
+.git/
+.vscode/
+.idea/
+
+# Python/cache junk
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+
+# Large runtime/test data
+*.mcap
+*.db3
+rosbag2_*/
+bags/
+recordings/
+datasets/
+data/
+experiments/raw/
+
+# OS junk
+.DS_Store
+Thumbs.db
